@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    background-color: lightsalmon;
+
+}
+h1{
+    width: 300px;
+   
+  
+    display: inline-block;
+    background-color: purple;
+    color: aliceblue;
+    border-radius: 50px;
+}
+.red{
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+}
+.green{
+    background-color: green;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+}
+.yellow{
+    background-color: yellow;
+    color: #080808;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    border-radius: 50px;
+}
