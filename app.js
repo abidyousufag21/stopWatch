@@ -25,15 +25,19 @@ function startTimer(){
         hurs.innerHTML = hour;
         min = 0;
     }
+
+    
 }
 
 
 function start(){
     interval =  setInterval(startTimer , 10);
+    document.getElementById("startDisabled").disabled = true;
 }
 
 function pause(){
     clearInterval(interval);
+    document.getElementById("startDisabled").disabled = false;
 }
 
 function reset(){
